@@ -1,0 +1,18 @@
+choropleth = folium.Choropleth(
+            geo_data='Projects/Phonepe_Pulse/states_india.geojson',
+            name="Indian Map",
+            data=df_map,
+            columns=["State", "All_Transactions"],
+            key_on='feature.properties.st_nm',
+            line_opacity=0.8,
+            highlight=True
+        )
+choropleth = folium.Choropleth(
+            geo_data='Projects/Phonepe_Pulse/states_india.geojson',
+            name="Indian Map",
+            data=df_map,
+            columns=["State", "All_Transactions"],
+            key_on='feature.properties.st_nm',
+            line_opacity=0.8,
+            highlight=True
+        )
